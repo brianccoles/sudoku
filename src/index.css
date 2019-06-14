@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.givenCell {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.answerCell {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 34px;
+  height: 34px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.unused{
+  margin-right: -1px;
+  margin-top: -1px;
+}
+.error {
+  color : red;
+  font-size : 12px;
+  height : 25px;
+}
+
+.button {
+  font-size : 18px;
+
+}
